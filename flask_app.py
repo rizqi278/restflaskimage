@@ -48,7 +48,7 @@ def hello_world():
 
 @app.route('/upload_gambar')
 def upload_gambar():
-    return render_template('index.html')
+    return render_template('upload.html')
 
 @app.route('/gallery')
 def gallery():
